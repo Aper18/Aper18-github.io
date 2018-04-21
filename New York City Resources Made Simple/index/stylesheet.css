@@ -1,0 +1,125 @@
+/* css comments*/
+
+body{
+    background-color: #7a9694;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    width: 100%;
+   }
+.parent{
+      display:contents;
+    align-content: center;
+}
+.article{
+    text-align: justify;
+    padding: 10px;
+}
+ .color1{
+   background: linear-gradient(to bottom, #336699 0%, #00cc66 100%);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    padding: 12px; 0px; 12px; 0;
+    border: 0px;
+    width: 100%;
+}
+
+.color2{
+        
+   background: linear-gradient(to bottom, #99ff99 0%, #cc66ff 100%);
+    font-family: 'PT Sans', sans-serif;
+    font-size:18px;
+    padding: 12px; 0px; 12px; 0;
+    border: 0px;
+    width: 100%;
+     
+}
+
+
+
+.color3{
+        
+  background: linear-gradient(to bottom, #999966 0%, #ff9999 100%);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    padding: 12px; 0px; 12px; 0;
+    border: 0px;
+    width: 100%;
+     
+}
+
+
+h1  {
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+    }
+
+h2  {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    }
+/*navagation bar settings on each page*/
+
+ 
+.nav {
+   
+  overflow: hidden;
+  background-color: #000000;
+  position:fixed;
+  left: 2px;    
+  top: 0;
+  width: 100%;
+}
+.nav ul{
+    list-style: none;
+    padding: 0;
+}
+.nav a {
+  float:left;
+  display:flex;
+  color: #FF4A1C;
+  text-align: center;
+  padding: 15px; 
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background: #BBDEF0;
+  color: black;
+}
+
+
+/*all img same setting*/
+
+.center{ 
+    display: flex;
+    justify-content: center;
+
+}
+
+}
+a:visited {
+    color: ##cc3300;
+    background-color: transparent;
+    text-decoration: none;
+}
+p {
+    text-align:center;
+     text-indent: 25px;
+}
+
+/* last page*/
+.reference {
+    display: flex;
+   list-style: none;
+    font: 6px;
+}
+    
+.references ul {
+    font-size: 10px;
+}
